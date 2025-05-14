@@ -8,7 +8,7 @@ require('dotenv').config();
 const PORT = 4000 || process.env.PORT;
 
 app.get('/', (req, res) => {
-    res.json({ msg: "Backend connected successfully with Express" });
+    res.json({ msg: "Hello dear Aashvi sis" });
 })
 
 
